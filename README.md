@@ -10,3 +10,4 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
 1. Utilizzare prompt per chiedere all'utente i km da percorrere e la sua età, salvandole in variabili separate
 2. Creare variabile del prezzo calcolato sui km scelti
 3. Creare condizioni per gli sconti ai minorenni e over 65
+4. Stampare il prezzo da pagare in pagina

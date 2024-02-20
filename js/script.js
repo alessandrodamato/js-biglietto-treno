@@ -9,6 +9,7 @@ let price = km * 0.21;
 
 console.log('Prezzo base: €', price);
 
+// condizioni eventuali sconti
 if (age < 18) {
   price = price - price * 20 / 100;
   console.log('Prezzo con sconto minorenni 20%: €', price.toFixed(2));
@@ -18,3 +19,6 @@ if (age < 18) {
 } else {
   console.log('Prezzo base: €', price.toFixed(2));
 }
+
+// output prezzo in pagina
+document.getElementById('output').innerHTML += '€' + ' ' + price.toFixed(2);
